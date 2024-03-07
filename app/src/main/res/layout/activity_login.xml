@@ -30,7 +30,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="100dp"
             android:fontFamily="@font/baloo"
-            android:text="Give Your Hands"
+            android:text="Give Your Thoughts"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="34sp"
