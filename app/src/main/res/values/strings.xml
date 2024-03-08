@@ -4,4 +4,8 @@
     <string name="username_input">Username</string>
     <string name="user_password">Password</string>
     <string name="login">Login</string>
+    <string name="home">Home</string>
+    <string name="favourite">Favourite</string>
+    <string name="profile">Profile</string>
+    <string name="category">Category</string>
 </resources>
