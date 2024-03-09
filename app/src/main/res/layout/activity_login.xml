@@ -8,8 +8,8 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="561dp"
-        android:layout_height="1008dp"
+        android:layout_width="match_parent"
+        android:layout_height="1020dp"
         android:contentDescription="@string/background_img"
         app:srcCompat="@drawable/blue_and_purple_minimalist_login_page_wireframe_mobile_ui_prototype"
         tools:ignore="MissingConstraints"

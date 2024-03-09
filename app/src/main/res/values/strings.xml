@@ -8,6 +8,10 @@
     <string name="favourite">Favourite</string>
     <string name="profile">Profile</string>
     <string name="category">Category</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="friendship">Friendship</string>
+    <string name="education">Education</string>
+    <string name="motivational">Motivational</string>
+    <string name="click_here_for_get_more">Click here! and get more</string>
+    <string name="mother">Mother</string>
+
 </resources>
