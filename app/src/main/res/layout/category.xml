@@ -64,6 +64,15 @@
                     android:layout_marginStart="8dp"
                     android:textColor="@color/black"/>
             </LinearLayout>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="35dp"
+                android:src="@drawable/pngtree_never_give_up_motivation_poster_concept_black_and_white_illustration_png_image_2154318">
+
+            </ImageView>
+
         </LinearLayout>
 
         <LinearLayout
@@ -104,7 +113,16 @@
                         android:layout_marginStart="8dp"
                         android:textColor="@color/black"/>
                 </LinearLayout>
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="90dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="35dp"
+                    android:src="@drawable/pngtree_never_give_up_motivation_poster_concept_black_and_white_illustration_png_image_2154318">
+
+                </ImageView>
             </LinearLayout>
+
         </LinearLayout>
 
         <LinearLayout
@@ -145,6 +163,14 @@
                         android:layout_marginStart="8dp"
                         android:textColor="@color/black"/>
                 </LinearLayout>
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="90dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="35dp"
+                    android:src="@drawable/pngtree_never_give_up_motivation_poster_concept_black_and_white_illustration_png_image_2154318">
+
+                </ImageView>
             </LinearLayout>
         </LinearLayout>
 
@@ -186,7 +212,16 @@
                         android:layout_marginStart="8dp"
                         android:textColor="@color/black"/>
                 </LinearLayout>
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="90dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="35dp"
+                    android:src="@drawable/pngtree_never_give_up_motivation_poster_concept_black_and_white_illustration_png_image_2154318">
+
+                </ImageView>
             </LinearLayout>
+
         </LinearLayout>
 
     </LinearLayout>
