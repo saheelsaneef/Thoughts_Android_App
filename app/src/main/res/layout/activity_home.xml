@@ -33,10 +33,10 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="15dp"
                     android:layout_marginRight="18dp"
-
                     app:srcCompat="@drawable/blue_and_yellow_progress_motivation_sticker" />
 
             </androidx.cardview.widget.CardView>
+
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
@@ -78,6 +78,12 @@
                 app:cardCornerRadius="15dp">
 
 
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    app:srcCompat="@drawable/its_not_about_ideas_139" />
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -88,6 +94,11 @@
                 app:cardCornerRadius="15dp">
 
 
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/fearless_motivational_quote_desktop_wallpaper_1" />
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
