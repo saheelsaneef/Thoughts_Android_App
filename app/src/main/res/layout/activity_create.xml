@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".create"
+    android:background="@drawable/background">
+
+    <include layout="@layout/activity_home"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:background="@drawable/crt_txt"
+            android:hint="Type Your Thouhgts"
+            android:inputType="textMultiLine"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/white"
+            android:layout_marginBottom="20dp"
+            android:ems="20"
+            android:layout_margin="15dp"/>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
