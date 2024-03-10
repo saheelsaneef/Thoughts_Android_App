@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
 
 
     <ScrollView
@@ -48,8 +50,8 @@
                     android:layout_marginTop="4dp"
                     android:layout_marginBottom="4dp"
                     android:src="@drawable/brown_cream_abstract_positive_motivation_desktop_wallpaper"
-                    android:contentDescription="TODO"/>
-
+                    android:contentDescription="TODO"
+                    tools:ignore="ContentDescription,HardcodedText" />
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -89,7 +91,7 @@
                     android:id="@+id/imageView6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/mlk_inspirational_quote" />
+                    app:srcCompat="@drawable/mlk_inspirational_quote" />
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -101,11 +103,12 @@
                     android:id="@+id/imageView7"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/short_inspirational_quotes_cover_2" />
+                    app:srcCompat="@drawable/short_inspirational_quotes_cover_2" />
             </androidx.cardview.widget.CardView>
 
         </LinearLayout>
 
     </ScrollView>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.content.Intent
+import com.google.android.material.bottomnavigation.BottomNavigationView
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -15,6 +17,9 @@ class MainActivity : AppCompatActivity() {
         loginButton.setOnClickListener {
             val intent = Intent(this, Home::class.java)
             startActivity(intent)
+
         }
+
+
     }
 }
