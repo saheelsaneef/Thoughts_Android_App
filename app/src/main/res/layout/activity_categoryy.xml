@@ -18,7 +18,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="80dp"
-            android:background="@color/bg_start">
+            android:background="@color/Primary">
 
             <TextView
                 android:layout_width="match_parent"

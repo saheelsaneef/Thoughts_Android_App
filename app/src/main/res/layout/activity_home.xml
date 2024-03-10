@@ -19,7 +19,7 @@
             android:id="@+id/bottomAppbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/bg_start"
+            android:backgroundTint="@color/Primary"
             android:layout_gravity="bottom">
 
             <com.google.android.material.bottomnavigation.BottomNavigationView
@@ -41,7 +41,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            app:backgroundTint="@color/bg_start"
+            app:backgroundTint="@color/Primary"
             app:borderWidth="3dp"
             android:src="@drawable/baseline_add_24"
             app:maxImageSize="50dp"/>
