@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/category"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".categoryy">
 
-
+    <include layout="@layout/activity_home"/>
     <LinearLayout
-
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -119,7 +119,7 @@
                     android:layout_height="90dp"
                     android:layout_marginTop="5dp"
                     android:layout_marginLeft="35dp"
-                    android:src="@drawable/pngtree_never_give_up_motivation_poster_concept_black_and_white_illustration_png_image_2154318">
+                    android:src="@drawable/__yx_m4g7d3mlizpuf7csfha">
 
                 </ImageView>
             </LinearLayout>
@@ -169,7 +169,7 @@
                     android:layout_height="90dp"
                     android:layout_marginTop="5dp"
                     android:layout_marginLeft="35dp"
-                    android:src="@drawable/pngtree_never_give_up_motivation_poster_concept_black_and_white_illustration_png_image_2154318">
+                    android:src="@drawable/_563994920_istock_friendship_for_hibbs">
 
                 </ImageView>
             </LinearLayout>
@@ -218,7 +218,7 @@
                     android:layout_height="90dp"
                     android:layout_marginTop="5dp"
                     android:layout_marginLeft="35dp"
-                    android:src="@drawable/pngtree_never_give_up_motivation_poster_concept_black_and_white_illustration_png_image_2154318">
+                    android:src="@drawable/motherhood_quotes">
 
                 </ImageView>
             </LinearLayout>
@@ -226,8 +226,6 @@
         </LinearLayout>
 
     </LinearLayout>
-
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
