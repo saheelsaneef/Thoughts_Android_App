@@ -1,5 +1,6 @@
 package com.example.adopt_me
 
+import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -10,16 +11,16 @@ import com.google.android.material.bottomnavigation.BottomNavigationView
 class MainActivity : AppCompatActivity() {
 
 
+    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val loginButton = findViewById<Button>(R.id.login_btn)
-        loginButton.setOnClickListener {
-            val intent = Intent(this, Home::class.java)
+        val startButton = findViewById<Button>(R.id.start_button)
+        startButton.setOnClickListener {
+            val intent = Intent(this, Login::class.java)
             startActivity(intent)
 
         }
-
     }
 }

@@ -7,8 +7,24 @@
     tools:context=".MainActivity"
     android:background="@drawable/background">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <include layout="@layout/activity_login"/>
+        <Button
+            android:id="@+id/start_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/start"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-black"
+            android:backgroundTint="@color/white"
+            tools:ignore="MissingConstraints"
+            android:layout_gravity="center"
+            android:layout_marginLeft="150dp"/>
+
+    </LinearLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

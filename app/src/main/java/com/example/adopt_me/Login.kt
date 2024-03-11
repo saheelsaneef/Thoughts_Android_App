@@ -1,6 +1,7 @@
 package com.example.adopt_me
 
 import android.content.ContentValues.TAG
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -14,6 +15,12 @@ class Login : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
+        val loginButton = findViewById<Button>(R.id.login_btn)
+        loginButton.setOnClickListener {
+            val intent = Intent(this, Home::class.java)
+            startActivity(intent)
+
+        }
 
     }
 }

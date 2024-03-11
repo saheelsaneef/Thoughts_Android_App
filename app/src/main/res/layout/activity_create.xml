@@ -19,16 +19,26 @@
             android:layout_width="wrap_content"
             android:layout_height="150dp"
             android:background="@drawable/crt_txt"
-            android:hint="Type Your Thouhgts"
+            android:hint="Add Your Thouhgts"
             android:inputType="textMultiLine"
             android:textAlignment="center"
-            android:textSize="25dp"
+            android:textSize="25sp"
             android:fontFamily="sans-serif-black"
             android:textColor="@color/white"
             android:layout_marginBottom="20dp"
             android:ems="20"
             android:layout_margin="15dp"/>
 
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/done"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/white"
+            />
 
     </LinearLayout>
 
