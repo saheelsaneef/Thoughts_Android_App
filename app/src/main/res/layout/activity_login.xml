@@ -4,17 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/blue_and_purple_minimalist_login_page_wireframe_mobile_ui_prototype"
     tools:context=".Login">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="match_parent"
-        android:layout_height="1020dp"
-        android:contentDescription="@string/background_img"
-        app:srcCompat="@drawable/blue_and_purple_minimalist_login_page_wireframe_mobile_ui_prototype"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="-67dp"
-        tools:layout_editor_absoluteY="-150dp" />
 
     <LinearLayout
         android:layout_width="match_parent"

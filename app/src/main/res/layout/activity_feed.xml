@@ -36,6 +36,13 @@
                     android:src="@drawable/blue_and_yellow_progress_motivation_sticker"
                     android:importantForAccessibility="no" />
 
+                <Button
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:backgroundTint="@color/Secondary"
+                    android:text="Like"
+                    android:layout_gravity="end"/>
+
             </androidx.cardview.widget.CardView>
 
 
@@ -53,6 +60,13 @@
                     android:src="@drawable/brown_cream_abstract_positive_motivation_desktop_wallpaper"
                     android:contentDescription="TODO"
                     tools:ignore="ContentDescription,HardcodedText" />
+
+                <Button
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:backgroundTint="@color/Secondary"
+                    android:text="Like"
+                    android:layout_gravity="end"/>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -67,6 +81,14 @@
                     android:layout_marginTop="5dp"
                     android:layout_marginBottom="5dp"
                     android:src="@drawable/fearless_motivational_quote_desktop_wallpaper_1" />
+
+                <Button
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:backgroundTint="@color/Secondary"
+                    android:text="Like"
+                    android:layout_gravity="end"/>
+
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -81,6 +103,14 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="12dp"
                     android:src="@drawable/its_not_about_ideas_139" />
+
+                <Button
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:backgroundTint="@color/Secondary"
+                    android:text="Like"
+                    android:layout_gravity="end"/>
+
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -93,6 +123,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     app:srcCompat="@drawable/mlk_inspirational_quote" />
+
+                <Button
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:backgroundTint="@color/Secondary"
+                    android:text="Like"
+                    android:layout_gravity="end"/>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -106,6 +143,13 @@
                     android:layout_height="wrap_content"
                     app:srcCompat="@drawable/short_inspirational_quotes_cover_2"
                     android:layout_margin="12dp"/>
+
+                <Button
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:backgroundTint="@color/Secondary"
+                    android:text="Like"
+                    android:layout_gravity="end"/>
             </androidx.cardview.widget.CardView>
 
         </LinearLayout>
