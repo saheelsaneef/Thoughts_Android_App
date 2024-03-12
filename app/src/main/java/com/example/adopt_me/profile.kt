@@ -3,6 +3,7 @@ package com.example.adopt_me
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.widget.AppCompatButton
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 
@@ -12,6 +13,14 @@ class profile : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_profile)
+
+        val Logout = findViewById<AppCompatButton>(R.id.Logout)
+
+        Logout.setOnClickListener {
+            val intent = Intent(this,Login::class.java)
+            startActivity(intent)
+
+        }
 
         bottomNavigationView = findViewById(R.id.bottom_navigation)
         bottomNavigationView.setOnItemSelectedListener { item ->

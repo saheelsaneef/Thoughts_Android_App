@@ -109,6 +109,7 @@
                 android:textSize="18sp"/>
 
             <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/Logout"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:background="@drawable/profile_btn"
