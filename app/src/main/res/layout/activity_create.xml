@@ -18,28 +18,53 @@
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="150dp"
+            android:layout_margin="15dp"
+            android:layout_marginBottom="20dp"
             android:background="@drawable/crt_txt"
+            android:ems="20"
+            android:fontFamily="sans-serif-black"
             android:hint="Add Your Thouhgts"
             android:inputType="textMultiLine"
             android:textAlignment="center"
-            android:textSize="25sp"
-            android:fontFamily="sans-serif-black"
             android:textColor="@color/white"
-            android:layout_marginBottom="20dp"
-            android:ems="20"
-            android:layout_margin="15dp"/>
+            android:textSize="25sp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="50dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="sans-serif-black"
+            android:text="Add Image"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
 
         <Button
             android:id="@+id/submit_button"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="@string/done"
-            android:textColor="@color/black"
-            android:textSize="20sp"
             android:layout_gravity="center"
             android:backgroundTint="@color/white"
-            />
+            android:text="@string/done"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_crt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            app:backgroundTint="@color/Primary"
+            app:borderWidth="3dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="30dp"
+            android:src="@drawable/baseline_arrow_back_24"
+            app:maxImageSize="50dp"/>
 
     </LinearLayout>
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
